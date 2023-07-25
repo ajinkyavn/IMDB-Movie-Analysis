@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Rating Predictor - Result</title>
+    <style>
+        .formGroup{
+            display: flex;
+            justify-content: center;
+            backdrop-filter: blur(70px);
+            width: 700px;
+            height: 350px;
+            margin: 50px auto 20px;
+            flex-direction: column;
+
+          }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("static/App Development Company Names.jpg");
+            align-items:center;
+            
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        p {
+            font-size: 20px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="formGroup">    
+        <h1>Movie Rating Predictor</h1>      
+    <p>The predicted rating for your movie is: {{ rating }}</p>
+    <p>The predicted metascore for your movie is: {{ metascore }}</p>
+    </div>
+</body>
+</html>
